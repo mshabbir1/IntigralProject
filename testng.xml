@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Intigral Project" thread-count="1">
+    <listeners>
+        <listener class-name="Reporting.TestListener"/>
+    </listeners>
+    <test name="Regression" preserve-order="true">
+        <parameter name="browserName" value="Chrome"></parameter>
+        <classes>
+            <class name="Utilities.Initialization"/>
+            <class name="TestCases.AllCountriesSelection"/>
+            <!--class name="TestCases.HomePageTestCases"/-->
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

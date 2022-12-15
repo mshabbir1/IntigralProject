@@ -1,0 +1,1 @@
+{"uuid":"0f086421-3736-4111-9b33-f06aa7ec9568","name":"Intigral Project","children":["821a258b-363c-4853-9dea-4306713938f5"],"befores":[{"name":"LaunchBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1671106196712,"stop":1671106198462}],"afters":[],"links":[],"start":1671106196694,"stop":1671106217411}
